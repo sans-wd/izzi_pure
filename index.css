@@ -276,6 +276,79 @@ body {
   font-size: 1rem;
   margin-top: -10px;
 }
+.proHeader {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.proCardWrapper {
+  margin: 15px 0;
+  columns: 3 200px;
+  column-gap: 10px;
+}
+.proCardBody {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 1.25rem;
+  border-radius: 0.375rem;
+  border: 1px solid rgb(229 231 235 / 1);
+  break-inside: avoid;
+}
+.proImgCard img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.proImgCard {
+  margin-right: 10px;
+}
+.proCardName h1 {
+  font-family: "Averta", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  font-size: 20px;
+}
+.proCardName h1 {
+  font-family: "Averta", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  font-size: 20px;
+}
+.proCardName p {
+  font-family: "Averta", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin: 0;
+}
+.proCardInfo {
+  margin: 25px 0;
+}
+.proCardInfo p {
+  font-family: "Averta", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(153 153 153 /1);
+  margin: 0;
+}
+.proCardAct a {
+  font-family: "Averta", sans-serif;
+  color: rgb(89 32 188 / 1);
+}
+.proCardAct button {
+  font-family: "Averta", sans-serif;
+  background-color: transparent;
+  color: rgb(89 32 188 / 1);
+  padding: 0.75rem;
+  font-size: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(89 32 188 / 0.25);
+  border-radius: 0.375rem;
+  transition: 0.5s ease;
+}
+.proCardAct button:hover {
+  color: white;
+  background-color: #5c24bc;
+}
 
 @media (ma0-width: 3099px) {
   .container {
@@ -296,6 +369,10 @@ body {
   }
   .cardWrapper {
     columns: 2 300px;
+    column-gap: 10px;
+  }
+  .proCardWrapper {
+    columns: 2 200px;
     column-gap: 10px;
   }
 }
